@@ -1,0 +1,50 @@
+.Container{
+	padding: 10px;
+}
+
+#UpdateButton:link,#UpdateButton:visited{
+	background-color: #4CAF50;
+    color: white;
+    padding: 8px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+     border-radius: 25px;
+}
+#UpdateButton:hover,#UpdateButton:active{
+	background-color: #45a049
+}
+#DeleteButton:link,#DeleteButton:visited{
+	background-color: #f44336;
+    color: white;
+    padding: 8px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+	border-radius: 25px;
+}
+
+#DeleteButton:hover,#DeleteButton:active{
+	    background-color: red;
+}
+#display{
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: italic;
+	color : #4CAF50;
+}
+
+
+#sub {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#sub:hover{
+	background-color: #45a049;
+}
